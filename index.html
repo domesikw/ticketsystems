@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support Ticket</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+<header>
+  <h1>🎫 Support</h1>
+  <button onclick="toggleTheme()">🌙 / ☀️</button>
+</header>
+
+<form id="ticketForm">
+  <h2>Vytvořit ticket</h2>
+  <input id="user" placeholder="Tvůj Discord nick (domesikw)" required>
+  <select id="type">
+    <option value="Podpora">Podpora</option>
+    <option value="Bug">Bug</option>
+    <option value="Spolupráce">Spolupráce</option>
+  </select>
+  <textarea id="msg" placeholder="Popiš problém co nejlépe" required></textarea>
+  <button type="submit">Odeslat ticket</button>
+</form>
+
+<footer>
+  <p>© domesikw | <a href="#">Discord</a> | <a href="#">Instagram</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

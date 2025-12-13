@@ -1,0 +1,5 @@
+ticket-system/
+├── index.html      (ticket formulář)
+├── admin.html      (admin panel)
+├── style.css
+└── script.js
